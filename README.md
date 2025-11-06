@@ -1,25 +1,19 @@
 # spring boot REST api
 a simple RESTful API built with **Spring Boot**, **Spring Data JPA**, and **MySQL**, this project demonstrates basic **CRUD operations** and integration between a Spring Boot backend and a relational database.
 
----
-
 ## tech stack
 - **spring boot**
 - **spring data JPA**
 - **mySql**
 - **maven**
 - **java 17+** (recommended: Java JDK 25)
-
----
-
+  
 ## features
 - create, read, update, delete operations (CRUD)
 - RESTful endpoints using Spring Boot
 - mySql database connectivity
 - auto table creation using JPA (`spring.jpa.hibernate.ddl-auto=update`)
-
----
-
+  
 ## how to run
 1. clone the repository  
 
@@ -35,8 +29,6 @@ mvn spring-boot:run<br>
 4. access your API endpoints at:<br>
 <http://localhost:8080>
 
----
-
 ## example endpoints
 | method | endpoint              | description        |
 | :----- | :-------------------- | :----------------- |
@@ -46,16 +38,12 @@ mvn spring-boot:run<br>
 | PUT    | `/api/products/{id}`  | Update a product   |
 | DELETE | `/api/products/{id}`  | Delete a product   |
 
----
-
 ## author
 
 •𝗥𝗬ō𝗜𝗞𝗜 𝗧𝗘𝗡𝗞ā𝗜•<br>
 aspiring Full Stack Dev.<br>
 mail: <zeninmakisan2025@gmail.com><br>
 linkedIn: <www.linkedin.com/in/jayanth-a-r-254232323>
-
----
 
 ## license
 
