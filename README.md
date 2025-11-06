@@ -24,7 +24,7 @@ a simple RESTful API built with **Spring Boot**, **Spring Data JPA**, and **MySQ
 1. clone the repository  
 
    ```bash
-   git clone https://github.com/<your-username>/springboot-rest-api.git
+   git clone https://github.com/satoru1726/springboot-rest-api.git
 2. configure your database in application.properties:<br>
 spring.datasource.url = jdbc:mysql://localhost:3306/your_db_name<br>
 spring.datasource.username = your_username<br>
