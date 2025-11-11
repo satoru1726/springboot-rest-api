@@ -39,7 +39,7 @@ mvn spring-boot:run<br>
 | DELETE | `/api/products/{id}`  | Delete a product   |
 
 ## author
-•𝗥𝗬ō𝗜𝗞𝗜 𝗧𝗘𝗡𝗞ā𝗜•<br>
+**_Jayanth A R_**<br>
 aspiring Full Stack Dev.<br>
 mail: <zeninmakisan2025@gmail.com><br>
 linkedIn: <www.linkedin.com/in/jayanth-a-r-254232323>
