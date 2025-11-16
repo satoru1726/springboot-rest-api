@@ -12,9 +12,7 @@ public class ProductController {
 
     @Autowired
     ProductService service;
-
-    // @RequestMapping("/products") // by default, it'll be @GetMapping when we mention @RequestMapping
-           // or
+    
     @GetMapping("/products")
     public List<ProductClass> returnProduct(){
 
@@ -22,12 +20,11 @@ public class ProductController {
     }
 
     @GetMapping("products/{id}")
-    public ProductClass getProductById(@PathVariable int id){ // ** @PathVariable -- @RequestMapping(/{anyVar})
+    public ProductClass getProductById(@PathVariable int id){ 
         return service.getProductByID(id);
 
     }
 
-    // here we're sending data from client side -- so we use POST request
     @PostMapping("/products")
     public void addProducts(@RequestBody ProductClass product){
         System.out.println(product);
@@ -44,8 +41,4 @@ public class ProductController {
         service.deleteProductByID(id);
 
     }
-
-
-
-
 }
