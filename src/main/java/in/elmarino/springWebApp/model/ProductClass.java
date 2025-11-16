@@ -12,7 +12,6 @@ import org.springframework.stereotype.Controller;
 @Component
 @Entity
 @Data
-// @AllArgsConstructor // damn, these will generate all the getters, setters and constructors for you! -- the power of lombok.
 @Table(name = "PRODUCTS")
 public class ProductClass {
 
@@ -22,6 +21,5 @@ public class ProductClass {
     @Column(name = "product_price")
     private int productPrice;
     @Column(name = "product_name")
-    private String productName; // take advantage of lombok! here.
-
+    private String productName;
 }
