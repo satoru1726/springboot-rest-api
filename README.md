@@ -1,4 +1,4 @@
-# spring boot REST api
+# Spring-Boot-REST-API
 a simple RESTful API built with **Spring Boot**, **Spring Data JPA**, and **MySQL**, this project demonstrates basic **CRUD operations** and integration between a Spring Boot backend and a relational database.
 
 ## tech stack
@@ -15,18 +15,18 @@ a simple RESTful API built with **Spring Boot**, **Spring Data JPA**, and **MySQ
 - auto table creation using JPA (`spring.jpa.hibernate.ddl-auto=update`)
   
 ## how to run
-1. clone the repository  
+- clone the repository  
 
    ```bash
-   git clone https://github.com/satoru1726/springboot-rest-api.git
-2. configure your database in application.properties:<br>
+   git clone https://github.com/satoru1726/springboot-rest-api.git ```
+- configure your database in application.properties:<br>
 spring.datasource.url = jdbc:mysql://localhost:3306/your_db_name<br>
 spring.datasource.username = your_username<br>
 spring.datasource.password = your_password<br>
 spring.jpa.hibernate.ddl-auto = update<br>
-3. run the project:<br>
+- run the project:<br>
 mvn spring-boot:run<br>
-4. access your API endpoints at:<br>
+- access your API endpoints at:<br>
 <http://localhost:8080>
 
 ## example endpoints
@@ -39,10 +39,13 @@ mvn spring-boot:run<br>
 | DELETE | `/api/products/{id}`  | Delete a product   |
 
 ## author
-**_Jayanth A R_**<br>
-aspiring Full Stack Dev.<br>
-mail: <zeninmakisan2025@gmail.com><br>
-linkedIn: <www.linkedin.com/in/jayanth-a-r-254232323>
+**_Jayanth A R_**
+<br>
+aspiring Full Stack Dev.
+<br>
+mail: jayanthcrpar@gmail.com
+<br>
+linkedIn: www.linkedin.com/in/jayanth-a-r-254232323
 
 ## license
 this project is open-source and available under the MIT License.
